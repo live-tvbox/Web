@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+	<script>
+		function disableClick(){
+			ducument.oneclick=function(event){
+				if (event.button == 2) {
+					alert('Right Click Message');
+					return false;
+				}
+			}
+		}
+	</script>
+    <link rel="shortcut icon" type="x-icon" href="https://i.postimg.cc/hGGZj9P3/TV-BOX.png">    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Live TV Box</title>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body onLoad="disableClick()">
+	
+<div class="container tv-area">
+  <div class="col-xs-12 col-md-10 tv-view">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe name="player" class="embed-responsive-item" autoplay allowfullscreen src="channel.html"></iframe>
+    </div>
+	  
+  </div>
+  <div class="col-xs-12 col-md-2 channel-list">
+    <ul class="thumbnail-slider">
+
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Peace-Tv/'"><img src="https://i.postimg.cc/B6kVRX37/Peace-Tv-bangla.png" alt="Peace Tv"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Islam-Bangla/'"><img src="https://i.postimg.cc/NGZ3zPfG/Islam-Bangla.png" alt="Islam Bangla"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/T-Sports/'"><img src="https://i.postimg.cc/52gkbP1C/T-Sports.png" alt="Tsports"></a></li> 
+	    <!-- <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/d0q8X0dR/Jamuna-tv.png" alt="Jamnuna TV"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/kXbFRzqS/Discovery-hd.png" alt="Discovery hd"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/nLtdLZmM/Somoy.png" alt="Somoy TV"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/43Z5gPC9/Sony-kal.png" alt="Sony Kal"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/xdRPTmYF/Sony-Sports-1-HD.png" alt="Sony-Sports-1-HD"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/9fJGjjt6/Sony-Max-HD.png" alt="Sony Max HD"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/SRw6t77j/Sony-BBC-earth.png" alt="Sony BBC"></a></li>  -->
+	    <!-- <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/DzfHX956/nagorik-tv.png" alt="Nagorik Tv"></a></li>  -->
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Ekushe-Tv/'"><img src="https://i.postimg.cc/2jqpTfYX/Ekushe.png" alt="Ekushe Tv"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Asian-Tv/'"><img src="https://i.postimg.cc/FRRprmGt/Asian-Tv.png" alt="Asian Tv"></a></li> 
+	    <!-- <li><a href="javascript:void();" onclick="player.location.href=''"><img src="https://i.postimg.cc/C1z2vb3f/Movie-Bangla.png" alt="Movie Bangla"></a></li>  -->
+		<li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Deepto-tv/'"><img src="https://i.postimg.cc/brSRnTK3/dipto-tv.png" alt="Deepto Tv"></a></li>
+        <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/R-Tv/'"><img src="https://i.postimg.cc/4NC057Bm/R-Tv.png" alt="R Tv"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Khusbo-Bangla-tv/'"><img src="https://i.postimg.cc/52SDj45j/Khushboo-Tv.png" alt="Khusbo Bangla"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Rongeen/'"><img src="https://i.postimg.cc/Kc3VBr76/Rongegn-Tv.png" alt="Rongegn"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Gubbare/'"><img src="https://i.postimg.cc/y8HwVgZw/Gubbare-tv.png" alt="Gubbare"></a></li> 
+		<!-- <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.iomg.cc/NjBzhhht/Star-jalsha.png" alt="STAR JALSHA"></a></li>  -->
+	  	<!-- <li><a href="javascript:void();" onclick="player.location.hrefhttps://live-tvbox.github.iotimg.cc/QVLJJ7Ds/Colors-Bangla-hd.png" alt="COLOURS BANGLA"></a></li>  -->
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Sondha/'"><img src="https://i.postimg.cc/RVcDbSDG/Shodha-tv.png" alt="Sananda Tv"></a></li> 
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Enter10-Bangla/'"><img src="https://i.postimg.cc/3Jps5CdX/Enter-IO-bangla.png" alt="ENTER10BANGLA"></a></li>
+	    <!-- <li><a href="javascript:void();" onclick="player.location.hrhttps://live-tvbox.github.ioostimg.cc/43FLhmY4/zeebanglahd.png" alt="ZEE  BANGLA HD"></a></li>  -->
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Sangeet-Bangla-/'"><img src="https://i.postimg.cc/WzZHVTbN/Sangeet-Bangla.png" alt="SANGEET BANGLA"></a></li>
+	    <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/Masti-Music-/'"><img src="https://i.postimg.cc/mrdqNm5s/masti-music.png" alt="Masti Music"></a></li> 
+        <li><a href="javascript:void();" onclick="player.location.href='https://live-tvbox.github.io/B4U-Music/'"><img src="https://i.postimg.cc/hj5rhw3X/B4-U-Music.png" alt="B4U Music"></a></li> 
+	    
+	</ul>
+  </div>
+<!-- container -->
+ <div id="rmpPlayer"></div> <div class="marquee yellow"><span> <i class=""style="font-size:20pt" aria-hidden="true"></i></span> <marquee scrollamount="5" direction="left" onmouseover="stop()" onmouseout="start()">*** বর্তমানে আমাদের ওয়েব সাইট আপডেট চলছে, আপডেট চলাকালীন সময় কিছু চ্যানেল ডাউন হতে পারে। টিভি চ্যানেল প্লে হতে ৫ থেকে ১০ সেকেন্ড টাইম নিতে পারে, তবে সেটা সার্ভার ও আপনার ইন্টারনেটের উপর নির্ভর করবে। ⛔ আপনার মতামত জানাতে আমাদের টেলিগ্রাম গ্রুপে জয়েন করুন, এবং কোনো চ্যানেল প্লে না হলে সেটাও বলুন, ধন্যবাদ। *** </marquee> </div> 	
+	
+		<!-- container --> 
+<footer> 	
+		<div style="text-align: center; background-size: cover;"> <div style="text-align: center;"><span style="font-family: arial;"><span style="color: yellow;">©️ 2024 Live Tv Box || <span style="color: white;">All Rights Reseved </span> </div> </ul> </footer> 
+		 </body><script src="script.js"></script> 
+	</div>
+</div> </a> </div>
+<script src="script.js"></script>
+
+</body>
+
+</html> 
